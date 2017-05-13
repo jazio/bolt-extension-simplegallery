@@ -16,26 +16,23 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "jazio",
+            "name": "Jazio",
             "email": "spomello@yandex.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "1.0.*",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Bolt\\Extension\\jazio\\SimpleGallery\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Bolt\\Extension\\jazio\\SimpleGallery\\Tests\\": "tests",
-            "Bolt\\Tests\\": "vendor/bolt/bolt/tests/phpunit/unit/"
+            "Bolt\\Extension\\Jazio\\SimpleGallery\\": "src"
         }
     },
     "extra": {
         "bolt-assets": "web",
-        "bolt-class": "Bolt\\Extension\\jazio\\SimpleGallery\\SimpleGalleryExtension",
+        "bolt-class": "Bolt\\Extension\\Jazio\\SimpleGallery\\SimpleGallery",
+              "branch-alias": {
+                "dev-master": "1.0.0"
+             },
         "bolt-icon": "gallery.png"
     }
 }

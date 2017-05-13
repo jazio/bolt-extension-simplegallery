@@ -1,15 +1,17 @@
 <?php
 
-namespace Bolt\Extension\jazio\SimpleGallery;
+namespace Bolt\Extension\Jazio\SimpleGallery;
 
-use Bolt\Extension\SimpleGalleryExtension;
+use Bolt\Extension\SimpleExtension;
+// @todo Add Javascript library for photo popup
+//use Bolt\Asset\File\JavaScript;
 
 /**
- * ExtensionName extension class.
+ * SimpleGallery extension class.
  *
  * @author jazio <you@example.com>
  */
-class SimpleGalleryExtension extends SimpleExtension
+class SimpleGallery extends SimpleExtension
 {
 	public function getName()
   {
