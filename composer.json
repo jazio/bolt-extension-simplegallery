@@ -1,0 +1,41 @@
+{
+    "name": "jazio/bolt-extension-simplegallery",
+    "description": "A simple gallery based on file folder",
+    "type": "bolt-extension",
+    "keywords": [
+        "Images",
+        "Photos",
+        "Gallery"
+    ],
+    "require": {
+        "bolt/bolt": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jazio",
+            "email": "spomello@yandex.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\jazio\\SimpleGallery\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bolt\\Extension\\jazio\\SimpleGallery\\Tests\\": "tests",
+            "Bolt\\Tests\\": "vendor/bolt/bolt/tests/phpunit/unit/"
+        }
+    },
+    "extra": {
+        "bolt-assets": "web",
+        "bolt-class": "Bolt\\Extension\\jazio\\SimpleGallery\\SimpleGalleryExtension",
+        "bolt-icon": "gallery.png"
+    }
+}
